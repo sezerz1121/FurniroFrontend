@@ -1,0 +1,1500 @@
+body
+{
+    
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    width: 100%;
+
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#root
+{
+    overflow-x: hidden;
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.productInputDiv
+{
+    margin-bottom: 41px;
+}
+.productInput
+{
+    width: 378px;
+    height: 56px;
+    font-size:26px;
+    border:0px;
+    color:black;
+    background-color: #FACD89;
+    padding-left: 33px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.productInput:focus
+{
+    outline: none;
+}
+.productListing
+{
+    background-color:#F9F3EB ;
+    width: 100%;
+    height: 1900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     
+    
+}
+.productListingForm
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.productInputImageDiv {
+    background-color: white;
+    height: 240px;
+    width: 411px;
+    border: 2px dashed #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s;
+    border-radius: 8px;
+  }
+  
+  .productInputImageDiv:hover {
+    border-color: #007bff;
+  }
+  
+  .productInputImage {
+    display: none;
+  }
+  .productInputMeasurement
+  {
+    width: 164px;
+    height: 56px;
+    font-size:26px;
+    border:0px;
+    color:black;
+    background-color: #FACD89;
+    padding-left: 33px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .productInputMeasurementDiv
+  {
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .productInputMeasurementAdd
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 61px;
+    background-color: #363636;
+    color: #F5F4FE;
+    border-radius: 24px;
+    border: transparent;
+    font-size: 26px;
+  }
+  .productInputMeasurementAdd:hover
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 61px;
+    background-color: #F5F4FE;
+    color: #363636;
+    border-radius: 24px;
+    border: transparent;
+    font-size: 26px;
+  }
+  .productInputMeasurementAddDiv
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .productListDiv
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .productListAdd
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 61px;
+    background-color: #363636;
+    color: #F5F4FE;
+    border-radius: 24px;
+    border: transparent;
+    font-size: 26px;
+  }
+  .productListAdd:hover
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 61px;
+    background-color: #F5F4FE;
+    color: #363636;
+    border-radius: 24px;
+    border: transparent;
+    font-size: 26px;
+  }
+  .Product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 285px;
+    height: 446px;
+    background-color: #F4F5F7;
+    margin: 42px; 
+}
+
+
+  .ProductImage
+  {
+    width: 100%;
+    height: 301px;
+  }
+  .productFirstDiv
+  {
+    height: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 24px;
+    padding-top: 15px;
+  }
+  .productSecondDiv
+  {
+    height: 301px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .productSecondDivdiscount-label{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    height: 48px;
+    width: 48px;
+    font-size: 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .productThirdDivText
+  {
+
+    padding-left: 16px;
+    font-family: 600;
+    font-size: 24px;
+  }
+  .productThirdDiv
+  {
+    height:24px ;
+    margin-top: 20px;
+    padding: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .productThirdfiveDivText
+  {
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #898989;
+  }
+  .productThirdfiveDiv
+  {
+    margin-top: 20px;
+    margin-top: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .ProductEditButton
+  {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border:  transparent;
+    background-color: black;
+    color: #FACD89;
+
+  }
+  .ProductEditButton:hover
+  {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border:  transparent;
+    background-color: #FACD89;
+    color: black
+
+  }
+  .productListEdting
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  .show-more-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #B88E2F;
+    cursor: pointer;
+    width: 245px;
+    height: 48px;
+    border: 1px solid #B88E2F;
+    transition: all 0.3s ease; 
+
+}
+.show-more-btn:hover {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #B88E2F;
+  color: #fff;
+  cursor: pointer;
+  width: 245px;
+  height: 48px;
+  border: 1px solid #fff;
+}
+.show-more-btn:active {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #B88E2F;
+  color: #fff;
+  cursor: pointer;
+  width: 247px;
+  height: 50px;
+  border: 1px solid #fff;
+}
+  .RegisterDiv
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .EmailInputDiv
+  {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  .EmailInput
+  {
+    display: flex;
+    background-color: white;
+    width: 380px;
+    height: 56px;
+    padding-left: 31px;
+    font-size: 26px;
+    border-radius: 16px;
+    border:0px;
+    color: #9F9F9F;
+    border: solid 1px #9F9F9F;
+  }
+  .EmailInput:focus
+  {
+    outline: none;
+  }
+  .PasswordInputDiv
+  {
+    margin-bottom: 48px;
+  }
+  .PasswordInput
+  {
+    display: flex;
+    background-color: white;
+    width: 380px;
+    height: 56px;
+    padding-left: 31px;
+    font-size: 26px;
+    border-radius: 16px;
+    color: #9F9F9F;
+    border: solid 1px #9F9F9F;
+  }
+  .PasswordInput:focus
+  {
+    outline: none;
+  }
+  .RegisterButton
+  {
+    width: 243px;
+    height: 61px;
+    border: transparent;
+    border-radius: 24px;
+    background-color: #363636;
+    color: #F5F4FE;
+    font-size: 26px;
+  }
+  .RegisterButton:hover
+  {
+    width: 243px;
+    height: 61px;
+    border: transparent;
+    border-radius: 24px;
+    background-color: #F5F4FE;
+    color: #363636;
+    font-size: 26px;
+  }
+  .RegisterButton:active
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 248px;
+    height: 66px;
+    border: transparent;
+    border-radius: 24px;
+    background-color: #F5F4FE;
+    color: #363636;
+    font-size: 31px;
+  }
+  .icons
+  {
+    
+    font-size: 26px;
+  }
+  .productFourthDivUser
+  {
+    
+    width: 100%;
+    display: flex;
+  }
+  .productFourthDivText
+  {
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .navbar
+{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.navbarLogoDiv
+{
+  height: 41px;
+  width: 185px;
+  display: flex;
+  font-size: 34px;
+  align-items: center;
+  font-weight: 700;
+  margin-left: 54px;
+}
+.navbarInfoDiv
+{
+  width: 430px;
+  margin-left: 451px;
+  display: flex;
+  align-items: center;
+
+}
+.navbarInfoDivHome
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 75px;
+  cursor: pointer;
+}
+.navbarInfoDivShop
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 75px;
+  cursor: pointer;
+}
+.navbarInfoDivAbout
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 75px;
+  cursor: pointer;
+}
+.navbarInfoDivContact
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+.navbarProccessDiv
+{
+  
+  margin-left: 375px;
+  display: flex;
+  align-items: center;
+
+}
+.navbarProccessDivProfile
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin-right: 45px;
+}
+.navbarProccessDivSearch
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin-right: 45px;
+}
+.navbarProccessDivHeart
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin-right: 45px;
+}
+.navbarProccessDivCart
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  
+}
+.Dropdown
+{
+  position: absolute;
+  top: 81px;
+  right: 48px;
+  height: 429px;
+  width: 259px;
+  background-color: #FACD89;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column
+  
+}
+.DropdownEmail
+{
+  width: 100%;
+  height: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.DropdownWhiteLine
+{
+  width: 251px;
+  background-color: #F9F3EB;
+  height: 2px;
+  
+}
+.DropdownWhiteLineDiv
+{
+  display: flex;
+  justify-content: center;
+}
+.DrodownPayment
+{
+  height: 74.25px;
+}
+.DrodownAddress
+{
+  height: 74.25px;
+}
+.DrodownInformation
+{
+  height: 74.25px;
+}
+.DrodownOrder
+{
+  height: 74.25px;
+}
+.Drowdownlogout
+{
+  width: 100%;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  
+}
+.Drowdownlogout:hover
+{
+  width: 100%;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.DrowdownlogoutIcon
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 19px;
+  font-size: 26px;
+}
+.DrowdownlogoutText
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  font-size: 16px;
+}
+.savedDiv
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  
+}
+.savedBack
+{
+ font-size: 26px;
+ background-color: white;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 92px;
+ margin-top: 65px;
+ color: #9F9F9F;
+ border: solid 1px #9F9F9F;
+}
+.savedBack:hover
+{
+ font-size: 26px;
+ background-color: #9F9F9F;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 92px;
+ margin-top: 65px;
+ color: white;
+ border: solid 1px white;
+}
+.savedTitle
+{
+  margin-top: 38px;
+  margin-left: 92px;
+  font-size: 36px;
+  font-weight: 600;
+}
+.BuyImage
+{
+  height: 500px;
+  width: 423px;
+  border-radius: 10px;
+  margin-left: 206px;
+  margin-top: 38px;
+}
+.BuyPage
+{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #F9F1E7;
+  align-items: center;
+  justify-content: start;
+}
+.BuyPageTextI
+{
+
+  color: #9F9F9F;
+  font-size: 16px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  cursor: pointer;
+}
+.BuyPageTextII
+{
+  color: #9F9F9F;
+  font-size: 16px;
+  margin-left: 29px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  cursor: pointer;
+}
+.BuyPageTextIIarrow
+{
+  color: #9F9F9F;
+  font-size: 16px;
+  margin-left: 29px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  
+}
+.BuyPageTextIII
+{
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 34px;
+  display: flex;
+  align-items: center;
+  
+}
+.BuyDivDif
+{
+  width: 2px;
+  height: 37px;
+  background-color: #9F9F9F;
+  margin-left: 31px;
+}
+.BuyImageDiv
+{
+  margin-right: 10%;
+  width: 30%;
+}
+.BuyparentDiv
+{
+  display: flex;
+}
+.BuyInfoDiv
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+  height: 600px;
+}
+.BuyName
+{
+  font-size: 42px;
+  font-weight: 400;
+
+  
+}
+.BuyExtraProduct
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BuySizeDivParent
+{
+  display: flex;
+  flex-direction: column;
+  width: 606.01px;
+}
+.BuySizeDivlabel
+{
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9F9F9F;
+}
+.BuyNameText
+{
+  margin-top: 0%;
+}
+.BuySizeDiv
+{
+  display: flex;
+  width: 100%;
+  
+}
+.BuySize
+{
+  display: flex;
+  height: 64px;
+  width: 64px;
+  margin-top: 2%;
+  background-color: #F9F1E7;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin-right: 21px;
+  font-size: 26px;
+}
+.BuySize:hover
+{
+  display: flex;
+  height: 64px;
+  width: 64px;
+  margin-top: 2%;
+  background-color: #B88E2F;
+  color: #F9F1E7;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin-right: 21px;
+  font-size: 26px;
+}
+.BuySize:active
+{
+  display: flex;
+  height: 64px;
+  width: 64px;
+  margin-top: 2%;
+  background-color: #B88E2F;
+  color: #F9F1E7;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin-right: 21px;
+  font-size: 26px;
+}
+
+
+.BuyPrice
+{
+  font-size: 24px;
+  font-weight: 500;
+  color: #9F9F9F;
+  margin-bottom: 32px;
+
+}
+.BuyButton
+{
+  margin-top: 88px;
+  width: 243px;
+  height: 61px;
+  background-color: #fff;
+  color: #000;
+  font-size: 26px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.BuyButton:hover
+{
+  width: 243px;
+  height: 61px;
+  background-color: #000;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.BuyButton:active
+{
+  width: 243px;
+  height: 61px;
+  background-color: #000;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.BuyButtonI
+{
+  
+  width: 243px;
+  height: 61px;
+  background-color: #B88E2F;
+  color: #F9F1E7;
+  font-size: 26px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.BuyButtonI:hover
+{
+  width: 243px;
+  height: 61px;
+  background-color: #FFD49E;
+  color: #F9F1E7;
+  font-size: 26px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.BuyButtonI:active
+{
+  width: 245px;
+  height: 63px;
+  background-color: #FFD49E;
+  color: #F9F1E7;
+  font-size: 26px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.OrderCardDiv
+{
+  width: 1090px;
+  height: 180px;
+  border-radius: 15px;
+  background-color: #F9F1E7;
+  display: flex;
+  align-items: center;
+  margin-bottom: 69px;
+}
+.OrderImage
+{
+  height: 158px;
+  width: 142px;
+}
+.OrderCardImageDiv
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 36px;
+  
+}
+.OrderCardInfoDiv
+{
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+  flex-direction: column;
+  width: 137px;
+  height: 149px;
+}
+.OrderText
+{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 137px;
+}
+.OrderCardButtonDiv
+{
+  display: flex;
+  margin-left: 70px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 137px;
+  height: 149px;
+}
+.OrderDiv
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.DrodownOrder
+{
+  display: flex;
+  flex-direction: row;
+}
+.DrodownOrder:hover
+{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.DrowdownOrderText
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 16px;
+}
+.DrodownOrderIcon
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  margin-left: 25px;
+
+}
+.HomeDiv
+{
+  display: flex;
+
+  flex-direction: column;
+  
+  align-items: center;
+}
+.HomeShowcaseImageDiv
+{
+   width: 100%;
+   height: 716px;
+   display: flex;
+   align-items: center;
+   background-image: url('/Images/animegenius_79a953c72e71efad31c5dd8f2cc0ef20.png');
+   display: flex;
+   justify-content: end;
+   
+}
+.HomeShowcaseInfoDiv
+{
+  height: 443px;
+  width: 643px;
+  border-radius: 16px;
+  background-color: #FFF3E3;
+  margin-right: 61px;
+  display: flex;
+  opacity: 95%;
+}
+.HomeShowcaseTextDiv
+{
+  margin-left: 36px;
+  margin-top: 64px;
+}
+.HomeShowcaseTextI
+{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0%;
+}
+.HomeShowcaseTextII
+{
+  font-size: 52px;
+  font-weight: 700;
+  color: #B88E2F;
+  margin: 0%;
+}
+.HomeShowcaseTextIII
+{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0%;
+  margin-bottom: 50px;
+}
+.HomeShowcaseButton
+{
+  font-size: 16px;
+  font-weight: 700;
+  width: 222px;
+  height: 74px;
+  background-color: #B88E2F;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomeShowcaseButton:hover
+{
+  font-size: 16px;
+  font-weight: 700;
+  width: 222px;
+  height: 74px;
+  background-color: #ffffff;
+  color:  #B88E2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomeShowcaseButton:active
+{
+  font-size: 16px;
+  font-weight: 700;
+  width: 224px;
+  height: 76px;
+  background-color: #ffffff;
+  color:  #B88E2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomeRange
+{
+  height: 685px;
+  width: 1183px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 56px;
+}
+.HomeRangeTitleDiv
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.HomeRangeTitle
+{
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0%;
+}
+.HomeRangeText
+{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0%;
+}
+.HomeRangImagesDiv
+{
+  margin-top: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.HomeRangImagesparent
+{
+  width: 381px;
+  height: 580px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+.HomeRangImages {
+  width: 300px; 
+  height: 400px; 
+  border-radius: 8px; 
+  transition: all 0.3s ease; 
+}
+
+.HomeRangImages:hover {
+  width: 384px;
+  height: 483px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.HomeRangImagesText
+{
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.FurniroProducts
+{
+  margin-top: 56px;
+  width: 1236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.FurniroProductsText
+{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.DivProductEdit
+{
+  height: 5px;
+}
+.FurniroShare
+{
+  margin-top: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.FurniroShareTextDiv
+{
+  font-size: 20px;
+  font-weight: 600;
+  color: #616161;
+  margin: 0%;
+}
+.FurniroShareTextDiv2
+{
+  font-size: 40px;
+  font-weight: 700;
+  color: #3A3A3A;
+  margin: 0%;
+}
+.FurniroSharecollage
+{
+  overflow: hidden;
+  height: 721px;
+  width: 1236px
+}
+.FurniroFooter
+{
+  margin-top: 47px;
+  display: flex;
+  width: 100%;
+  height: 505px;
+}
+
+.FurniroFooterDivI
+{
+  height: 312px;
+  margin-top: 48px;
+  margin-left: 100px;
+  margin-right: 136px;
+}
+.FurniroFooterDivITextDivI
+{
+  margin-bottom: 50px;
+  
+}
+.FurniroFooterDivITextI
+{
+  font-size: 24px;
+  font-weight: 700;
+}
+.FurniroFooterDivITextDivII
+{
+  width: 290px;
+}
+.FurniroFooterDivITextII
+{
+  font-size: 16px;
+  font-weight: 400;
+  color: #9F9F9F;
+}
+.FurniroFooterDivII
+{
+  margin-top: 48px;
+  margin-right: 144px;
+}
+.FurniroFooterDivIITextDivIII
+{
+  margin-bottom: 55px;
+  
+}
+.FurniroFooterDivIITextIII
+{
+  font-size: 16px;
+  font-weight: 500;
+  color: #9F9F9F;
+}
+.FurniroFooterDivIITextDivVI
+{
+  margin-bottom: 46px;
+}
+.FurniroFooterDivIITextVI
+{
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+.FurniroFooterParent
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.FurniroFooterRights
+{
+  display: flex;
+  height: 59px;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 190px;
+  
+}
+.currentPageBar
+{
+  display: flex;
+  background-image: url('/Images/skyler-smith-hNimGcj8pWE-unsplash.png');
+  height: 315px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.currentPageBarTitle
+{
+  font-size: 48px;
+  font-weight: 500;
+}
+.currentPageBarTextDiv
+{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.currentPageBarText
+{
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  
+}
+.ShopFilterDiv
+{
+  height: 100px;
+  background-color: #F9F1E7;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+.ShopFilter
+{
+  display: flex;
+  align-items: center;
+  
+  width: 206px;
+}
+.ShopFilterText
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.FurniroProductsDiv
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ShopDivDif
+{
+  width: 2px;
+  height: 37px;
+  background-color: #9F9F9F;
+  margin-left: 129px;
+}
+.ShopFilerInputTextDiv
+{
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.ShopFilerInputText
+{
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  margin-right: 17px;
+}
+.ShopFilerInput
+{
+  width: 188px;
+  height: 55px;
+  border:0px;
+  font-size: 20px;
+  color: #9F9F9F;
+
+}
+.ShopFilerInput:focus
+{
+outline: none;
+  
+
+}
+
+.productListEditing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.pagination-buttonss {
+  margin-top: 20px; /* Adjust the spacing as needed */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 85px; /* Adjust the gap between buttons as needed */
+}
+
+.pagination-buttonss button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0px;
+  width: 98px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #F9F1E7;
+}
+.pagination-buttonss button:hover {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0px;
+  width: 98px;
+  height: 60px;
+  border-radius: 10px;
+  color: #F9F1E7;
+  background-color: #000;
+}
+.pagination-buttonss button:active {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0px;
+  width: 100px;
+  height: 62px;
+  border-radius: 10px;
+  color: #F9F1E7;
+  background-color: #000;
+}
+.ShopFeatures
+{
+  width: 100%;
+  height: 270px;
+}
+.ShopDiv
+{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Division
+{
+  display: flex;
+  height: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.DivisionDiff
+{
+  height: 1px;
+  width: 125px;
+  background-color:#9F9F9F;
+}
+.DivisionMid
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  color: #009EF7;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .productInput {
+      width: 100%;
+      max-width: 378px;
+  }
+  .Product {
+      width: calc(100% - 84px);
+      margin: 21px;
+  }
+  .BuyImage {
+      width: calc(100% - 168px);
+      margin-left: 84px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .productInput, .productInputMeasurement {
+      width: 100%;
+      max-width: 250px;
+  }
+  .Product {
+      width: calc(100% - 42px);
+      margin: 10px;
+  }
+  .BuyImage {
+      width: calc(100% - 84px);
+      margin-left: 42px;
+  }
+  .navbarInfoDiv {
+      margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .productInput {
+      font-size: 20px;
+  }
+  .Product {
+      width: calc(100% - 32px);
+      margin: 8px;
+  }
+  .BuyImage {
+      width: calc(100% - 64px);
+      margin-left: 32px;
+  }
+}
